@@ -12,6 +12,14 @@ This app fetches JSON data from the apilist.json file using URLSession and moder
 - Data fetching prioritizes the network, followed by the document directory, and then the bundle.
 - If data cannot be fetched from any of these sources, the user is notified of the failure.
 
+## App Screenshot
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" width="200" height="400" alt="api1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/63b0bd64-43ec-4be3-805d-e40974348f9e" width="200" height="400" alt="api2" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/ae424540-7821-4b01-bcc7-645e561bd578" width="200" height="400" alt="api3" class="image" />
+</div>
+
 ## Installation
 
 1. Clone the repository to your local machine.
@@ -29,13 +37,6 @@ This app fetches JSON data from the apilist.json file using URLSession and moder
 - [Gizem Turker](https://github.com/gizemturker) - Main Developer
 
 
-
-
-<div class="image-container">
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" width="200" height="400" alt="api1" class="image" />
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/63b0bd64-43ec-4be3-805d-e40974348f9e" width="200" height="400" alt="api2" class="image" />
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/ae424540-7821-4b01-bcc7-645e561bd578" width="200" height="400" alt="api3" class="image" />
-</div>
 
 
 
