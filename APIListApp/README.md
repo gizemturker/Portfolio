@@ -32,6 +32,12 @@ This app fetches JSON data from the apilist.json file using URLSession and moder
 
 <img src="(https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24).png" width="200" height="400" />
 
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" width="200" height="400" alt="api1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1" class="image" />
+</div>
+
 
 
 ![api1](https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24){:height="200px" width="300px"}
