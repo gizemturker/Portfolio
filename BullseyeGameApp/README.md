@@ -21,9 +21,9 @@ The improved version of this game includes the following features:
 ## App Screenshot
 
 <div class="image-container">
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/87361177-2fb5-4ae8-b681-19905dbd7bc6" width="200" height="400" alt="bullseye" class="image" />
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/84573f31-6cdd-4028-b468-99e4fd444813" width="200" height="400" alt="bullseye" class="image" />
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/fd5b422b-c7bb-467e-9198-99370924bb45" width="200" height="400" alt="bullseye" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/f5b57835-f0ad-4e11-b242-98413e175ddf" width="200" height="400" alt="bullseye1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/d4c4ce82-ff90-4177-8921-0891272de882" width="200" height="400" alt="bullseye2" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/ee2bb302-1c1e-4636-a950-5112742a96d6" width="200" height="400" alt="bullseye3" class="image" />
 </div>
 
 ## Installation
