@@ -12,6 +12,15 @@ Tunes App aims to provide users with a rich and immersive music streaming experi
 - State-of-the-art state management for handling user interactions and data flow.
 - Concurrency implementation for ensuring smooth and uninterrupted app performance.
 - Seamless integration of the latest APIs for fetching and presenting music data.
+- 
+## App Screenshot
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/17608e2c-f24f-461f-bf14-3ba25095325e" width="200" height="400" alt="api1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/1e2f8692-2dc3-40da-806e-702ca46d4e3d" width="200" height="400" alt="api2" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/e0b95758-f08a-4b75-b10d-6d044fdab45e" width="200" height="400" alt="api3" class="image" />
+</div>
+
 
 ## Requirements
 
