@@ -18,6 +18,14 @@ The improved version of this game includes the following features:
 
 - Players need to have Xcode and iOS 14 or later installed on their devices to play the game.
 
+## App Screenshot
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/87361177-2fb5-4ae8-b681-19905dbd7bc6" width="200" height="400" alt="bullseye" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/84573f31-6cdd-4028-b468-99e4fd444813" width="200" height="400" alt="bullseye" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/fd5b422b-c7bb-467e-9198-99370924bb45" width="200" height="400" alt="bullseye" class="image" />
+</div>
+
 ## Installation
 
 To run the project on your local environment, follow these steps:
@@ -35,4 +43,6 @@ To run the project on your local environment, follow these steps:
 ## Developer
 
 - [Gizem Turker](https://github.com/gizemturker) - Developer
+
+
 
