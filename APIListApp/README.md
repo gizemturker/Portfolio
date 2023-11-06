@@ -27,3 +27,6 @@ This app fetches JSON data from the apilist.json file using URLSession and moder
 ## Contributor
 
 - [Gizem Turker](https://github.com/gizemturker) - Main Developer
+
+
+![api1](https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24)

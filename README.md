@@ -14,7 +14,7 @@ Welcome to my portfolio! I am a dedicated and passionate developer with experien
 - [Hatay Earthquake Memorial](https://github.com/gizemturker/Portfolio/tree/main/HatayEarthquakeMemorial)
 - [ImageFinder](https://github.com/gizemturker/Portfolio/tree/main/ImageFinder)
 - [ImageSelf](https://github.com/gizemturker/Portfolio/tree/main/ImageSelf)
-- [iPadMusicApp]
+- [iPadMusicApp](https://github.com/gizemturker/Portfolio/tree/main/iPadMusicApp)
 - [LayoutGrids](https://github.com/gizemturker/Portfolio/tree/main/LayoutGrids%20)
 - [NetflixClone](https://github.com/gizemturker/Portfolio/tree/main/Netflix%20Clone)
 - [NewRecipeApp](https://github.com/gizemturker/Portfolio/tree/main/NewRwcipeApp)
