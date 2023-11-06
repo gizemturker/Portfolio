@@ -30,20 +30,16 @@ This app fetches JSON data from the apilist.json file using URLSession and moder
 
 
 
-<img src="(https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24).png" width="200" height="400" />
 
 <div class="image-container">
   <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" width="200" height="400" alt="api1" class="image" />
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1" class="image" />
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/63b0bd64-43ec-4be3-805d-e40974348f9e" width="200" height="400" alt="api2" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/ae424540-7821-4b01-bcc7-645e561bd578" width="200" height="400" alt="api3" class="image" />
 </div>
 
 
 
-![api1](https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24){:height="200px" width="300px"}
 
-![api2](https://github.com/gizemturker/swiftui-notes/assets/17044304/63b0bd64-43ec-4be3-805d-e40974348f9e){:height="200px" width="300px"}
 
-![api3](https://github.com/gizemturker/swiftui-notes/assets/17044304/ae424540-7821-4b01-bcc7-645e561bd578){:height="200px" width="300px"}
 
 
