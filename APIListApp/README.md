@@ -29,7 +29,10 @@ This app fetches JSON data from the apilist.json file using URLSession and moder
 - [Gizem Turker](https://github.com/gizemturker) - Main Developer
 
 
-<img src="(https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24)" width="200" height="400" />
+
+<img src="(https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24).png" width="200" height="400" />
+
+
 
 ![api1](https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24){:height="200px" width="300px"}
 
