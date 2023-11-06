@@ -15,7 +15,7 @@ iPadMusicApp is developed to offer users a simple and intuitive music player exp
 ## App Screenshot
 
 <div class="image-container">
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/4f9fff58-53e4-4ade-9465-4067ce3bdca9" width="500" height="900" alt="Simulator Screenshot - iPad Pro (12 9-inch) (6th generation) - 2023-11-06 at 23 16 02" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/4f9fff58-53e4-4ade-9465-4067ce3bdca9" width="600" height="800" alt="Simulator Screenshot - iPad Pro (12 9-inch) (6th generation) - 2023-11-06 at 23 16 02" class="image" />
 </div>
 
 ## Requirements
