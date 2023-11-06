@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'VocabularyQuizApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for VocabularyQuizApp
+  pod 'SwiftLint'
+end
+
+target 'VocabularyQuizAppTests' do
+  inherit! :search_paths
+  # Pods for testing
+end
+
+target 'VocabularyQuizAppUITests' do
+  # Pods for testing
+end
+

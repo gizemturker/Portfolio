@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		33F8F15E3E3D0202327F9D4BA04ECE01 /* Pods-VocabularyQuizApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365BE0668C5866E8F78530629648835 /* Pods-VocabularyQuizApp-dummy.m */; };
+		401AA4F168EFDD1B2D0C7DD3144BF449 /* Pods-VocabularyQuizApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 421F4206313803C672EF2B3E0EA19B2C /* Pods-VocabularyQuizApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7BA4D20A988DB724A2314F4CE56921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8FE77E4231955D7607C93DDD77013C0E /* Pods-VocabularyQuizAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F37AF920FF9D3656CC4CC3638658BB1E /* Pods-VocabularyQuizAppUITests-dummy.m */; };
+		D2B06F905039AF6F53813D8020706C38 /* Pods-VocabularyQuizAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DC795319968592D8CE76318CFB09BF /* Pods-VocabularyQuizAppTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E044AB96077F76263FBA1F35EA02DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06992F5A2CDB4CA6C3539377BDBB10E0 /* Pods-VocabularyQuizAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocabularyQuizAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		248CF08D8BA2B56EC32F3A626C16BD63 /* Pods-VocabularyQuizAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocabularyQuizAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		280FD0D4DF57D6D49C4175677EFC2086 /* Pods-VocabularyQuizAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VocabularyQuizAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30CB6846EB06BBA8E5DE999E19FB5F25 /* Pods-VocabularyQuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocabularyQuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		421F4206313803C672EF2B3E0EA19B2C /* Pods-VocabularyQuizApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VocabularyQuizApp-umbrella.h"; sourceTree = "<group>"; };
+		45935B83DA5CB94F34A4A770487C1203 /* Pods-VocabularyQuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocabularyQuizApp.release.xcconfig"; sourceTree = "<group>"; };
+		46DC795319968592D8CE76318CFB09BF /* Pods-VocabularyQuizAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VocabularyQuizAppTests-dummy.m"; sourceTree = "<group>"; };
+		5B9E86B17CB65EC8ED101DBA8E6FEAB2 /* Pods-VocabularyQuizAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocabularyQuizAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A213C5442CB37884BA54B0B152F2195 /* Pods-VocabularyQuizAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VocabularyQuizAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D6160BE73E55FCE101AA122E0E7D90E /* Pods-VocabularyQuizApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VocabularyQuizApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7365BE0668C5866E8F78530629648835 /* Pods-VocabularyQuizApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VocabularyQuizApp-dummy.m"; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		93DCE7FE0FE3905C2375D27545BBE81D /* Pods-VocabularyQuizAppUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-VocabularyQuizAppUITests"; path = "libPods-VocabularyQuizAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E33C82AC956A875ED508F453624FEF /* Pods-VocabularyQuizApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VocabularyQuizApp.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24F12629C8EA5F9E0C5C0E72F56164C /* Pods-VocabularyQuizAppTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-VocabularyQuizAppTests"; path = "libPods-VocabularyQuizAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67900D996B9F2599841D1BB2278C7DB /* Pods-VocabularyQuizApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VocabularyQuizApp"; path = Pods_VocabularyQuizApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BF24343BB6361A6E5F5E2CB9FDF9DC /* Pods-VocabularyQuizAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VocabularyQuizAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C945F7311EA8D4EC98A8FB653694301C /* Pods-VocabularyQuizApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VocabularyQuizApp-Info.plist"; sourceTree = "<group>"; };
+		DDF525EA29EDC2EBFCAC7A38124ED977 /* Pods-VocabularyQuizAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VocabularyQuizAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF8FD88437037913B2792816C4FAD2E1 /* Pods-VocabularyQuizApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VocabularyQuizApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1B1D94D87E04FB027A4E64AC3730C39 /* Pods-VocabularyQuizAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VocabularyQuizAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F37AF920FF9D3656CC4CC3638658BB1E /* Pods-VocabularyQuizAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VocabularyQuizAppUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C7E198878933AD96352336F34E8B4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8A91E4B33DC623C33A36FC1F793EE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BBF6DFA4B97A7243AD66156A180F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7BA4D20A988DB724A2314F4CE56921 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3669B06282FB7B0668AE6B30DA36AA21 /* Pods-VocabularyQuizAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF525EA29EDC2EBFCAC7A38124ED977 /* Pods-VocabularyQuizAppUITests-acknowledgements.markdown */,
+				280FD0D4DF57D6D49C4175677EFC2086 /* Pods-VocabularyQuizAppUITests-acknowledgements.plist */,
+				F37AF920FF9D3656CC4CC3638658BB1E /* Pods-VocabularyQuizAppUITests-dummy.m */,
+				06992F5A2CDB4CA6C3539377BDBB10E0 /* Pods-VocabularyQuizAppUITests.debug.xcconfig */,
+				5B9E86B17CB65EC8ED101DBA8E6FEAB2 /* Pods-VocabularyQuizAppUITests.release.xcconfig */,
+			);
+			name = "Pods-VocabularyQuizAppUITests";
+			path = "Target Support Files/Pods-VocabularyQuizAppUITests";
+			sourceTree = "<group>";
+		};
+		391386DB07A18BCEF6B9C683990E7E17 /* Pods-VocabularyQuizAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BF24343BB6361A6E5F5E2CB9FDF9DC /* Pods-VocabularyQuizAppTests-acknowledgements.markdown */,
+				E1B1D94D87E04FB027A4E64AC3730C39 /* Pods-VocabularyQuizAppTests-acknowledgements.plist */,
+				46DC795319968592D8CE76318CFB09BF /* Pods-VocabularyQuizAppTests-dummy.m */,
+				6A213C5442CB37884BA54B0B152F2195 /* Pods-VocabularyQuizAppTests.debug.xcconfig */,
+				248CF08D8BA2B56EC32F3A626C16BD63 /* Pods-VocabularyQuizAppTests.release.xcconfig */,
+			);
+			name = "Pods-VocabularyQuizAppTests";
+			path = "Target Support Files/Pods-VocabularyQuizAppTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		8CC918E860C0D2D50EB5CDBFB175585F /* Pods-VocabularyQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				97E33C82AC956A875ED508F453624FEF /* Pods-VocabularyQuizApp.modulemap */,
+				6D6160BE73E55FCE101AA122E0E7D90E /* Pods-VocabularyQuizApp-acknowledgements.markdown */,
+				DF8FD88437037913B2792816C4FAD2E1 /* Pods-VocabularyQuizApp-acknowledgements.plist */,
+				7365BE0668C5866E8F78530629648835 /* Pods-VocabularyQuizApp-dummy.m */,
+				C945F7311EA8D4EC98A8FB653694301C /* Pods-VocabularyQuizApp-Info.plist */,
+				421F4206313803C672EF2B3E0EA19B2C /* Pods-VocabularyQuizApp-umbrella.h */,
+				30CB6846EB06BBA8E5DE999E19FB5F25 /* Pods-VocabularyQuizApp.debug.xcconfig */,
+				45935B83DA5CB94F34A4A770487C1203 /* Pods-VocabularyQuizApp.release.xcconfig */,
+			);
+			name = "Pods-VocabularyQuizApp";
+			path = "Target Support Files/Pods-VocabularyQuizApp";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				D5B0CAA102B81CD46ED7041F46C8E0A6 /* Products */,
+				FA379A97C55661E836D9C848A69C7AA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B0CAA102B81CD46ED7041F46C8E0A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67900D996B9F2599841D1BB2278C7DB /* Pods-VocabularyQuizApp */,
+				A24F12629C8EA5F9E0C5C0E72F56164C /* Pods-VocabularyQuizAppTests */,
+				93DCE7FE0FE3905C2375D27545BBE81D /* Pods-VocabularyQuizAppUITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		FA379A97C55661E836D9C848A69C7AA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC918E860C0D2D50EB5CDBFB175585F /* Pods-VocabularyQuizApp */,
+				391386DB07A18BCEF6B9C683990E7E17 /* Pods-VocabularyQuizAppTests */,
+				3669B06282FB7B0668AE6B30DA36AA21 /* Pods-VocabularyQuizAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32127B0C7585C852D03069F10FE2F53C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B6C31A957B74D11C33ECA40A686838 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C969F2412CB83FD4B2E29AEEF66801BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401AA4F168EFDD1B2D0C7DD3144BF449 /* Pods-VocabularyQuizApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		705F99ADEC3B4FD846EE7CB1F44E9812 /* Pods-VocabularyQuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F284B795F05EF1C7A77AD5EB7271B09A /* Build configuration list for PBXNativeTarget "Pods-VocabularyQuizApp" */;
+			buildPhases = (
+				C969F2412CB83FD4B2E29AEEF66801BC /* Headers */,
+				D86E3CB1FADC0F317B789CD6EC4210EA /* Sources */,
+				D5BBF6DFA4B97A7243AD66156A180F52 /* Frameworks */,
+				9DBC248C97097F30058DB57CBAB34B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021A553BE5B09789BB8F03914B9E8D53 /* PBXTargetDependency */,
+			);
+			name = "Pods-VocabularyQuizApp";
+			productName = Pods_VocabularyQuizApp;
+			productReference = A67900D996B9F2599841D1BB2278C7DB /* Pods-VocabularyQuizApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF67797FC2F38B13932405D3E1F3B410 /* Pods-VocabularyQuizAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516B2092AD00A7B1A68514187DC92A80 /* Build configuration list for PBXNativeTarget "Pods-VocabularyQuizAppTests" */;
+			buildPhases = (
+				96B6C31A957B74D11C33ECA40A686838 /* Headers */,
+				8F746A05E82C38B28B23C0C10CC1B8C9 /* Sources */,
+				7C7E198878933AD96352336F34E8B4D5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VocabularyQuizAppTests";
+			productName = "Pods-VocabularyQuizAppTests";
+			productReference = A24F12629C8EA5F9E0C5C0E72F56164C /* Pods-VocabularyQuizAppTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6A4819A342DB2F5C0188463EDCB6650 /* Pods-VocabularyQuizAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEAC3DBD75BD2F87129122458C1419A /* Build configuration list for PBXNativeTarget "Pods-VocabularyQuizAppUITests" */;
+			buildPhases = (
+				32127B0C7585C852D03069F10FE2F53C /* Headers */,
+				04868008E682DB24241BD7BC8540DE39 /* Sources */,
+				CE8A91E4B33DC623C33A36FC1F793EE1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VocabularyQuizAppUITests";
+			productName = "Pods-VocabularyQuizAppUITests";
+			productReference = 93DCE7FE0FE3905C2375D27545BBE81D /* Pods-VocabularyQuizAppUITests */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D5B0CAA102B81CD46ED7041F46C8E0A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				705F99ADEC3B4FD846EE7CB1F44E9812 /* Pods-VocabularyQuizApp */,
+				AF67797FC2F38B13932405D3E1F3B410 /* Pods-VocabularyQuizAppTests */,
+				B6A4819A342DB2F5C0188463EDCB6650 /* Pods-VocabularyQuizAppUITests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DBC248C97097F30058DB57CBAB34B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04868008E682DB24241BD7BC8540DE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE77E4231955D7607C93DDD77013C0E /* Pods-VocabularyQuizAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F746A05E82C38B28B23C0C10CC1B8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B06F905039AF6F53813D8020706C38 /* Pods-VocabularyQuizAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86E3CB1FADC0F317B789CD6EC4210EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F8F15E3E3D0202327F9D4BA04ECE01 /* Pods-VocabularyQuizApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021A553BE5B09789BB8F03914B9E8D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 00E044AB96077F76263FBA1F35EA02DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EFB721F8E8F7EBBEF59F873D7E08596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CB6846EB06BBA8E5DE999E19FB5F25 /* Pods-VocabularyQuizApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VocabularyQuizApp/Pods-VocabularyQuizApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocabularyQuizApp/Pods-VocabularyQuizApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26EA5A9600226D2B7D8D25152A304F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CBE042B9307FE663D25023CCD54171E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A213C5442CB37884BA54B0B152F2195 /* Pods-VocabularyQuizAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C6D0B1C6189CF75939B46E7C596E26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248CF08D8BA2B56EC32F3A626C16BD63 /* Pods-VocabularyQuizAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD52550C548E2A7374051069A1EF971B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9E86B17CB65EC8ED101DBA8E6FEAB2 /* Pods-VocabularyQuizAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE2A5190A331B85FD748382F18C69791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45935B83DA5CB94F34A4A770487C1203 /* Pods-VocabularyQuizApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VocabularyQuizApp/Pods-VocabularyQuizApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VocabularyQuizApp/Pods-VocabularyQuizApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF30BEF9AB3BE71F9EF4ABF570973D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06992F5A2CDB4CA6C3539377BDBB10E0 /* Pods-VocabularyQuizAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9E1A48A750B946DE9877594C6E735E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516B2092AD00A7B1A68514187DC92A80 /* Build configuration list for PBXNativeTarget "Pods-VocabularyQuizAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBE042B9307FE663D25023CCD54171E /* Debug */,
+				9C6D0B1C6189CF75939B46E7C596E26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E1A48A750B946DE9877594C6E735E4 /* Debug */,
+				26EA5A9600226D2B7D8D25152A304F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEAC3DBD75BD2F87129122458C1419A /* Build configuration list for PBXNativeTarget "Pods-VocabularyQuizAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF30BEF9AB3BE71F9EF4ABF570973D54 /* Debug */,
+				AD52550C548E2A7374051069A1EF971B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F284B795F05EF1C7A77AD5EB7271B09A /* Build configuration list for PBXNativeTarget "Pods-VocabularyQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFB721F8E8F7EBBEF59F873D7E08596 /* Debug */,
+				AE2A5190A331B85FD748382F18C69791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

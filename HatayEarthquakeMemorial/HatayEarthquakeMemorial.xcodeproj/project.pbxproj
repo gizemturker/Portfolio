@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C437083D29E84E10009B1C31 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437083C29E84E10009B1C31 /* Location.swift */; };
+		C437084029E8567F009B1C31 /* LocationDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437083F29E8567F009B1C31 /* LocationDataService.swift */; };
+		C437084229E8FB49009B1C31 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437084129E8FB49009B1C31 /* LocationsView.swift */; };
+		C437084429E8FE80009B1C31 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437084329E8FE80009B1C31 /* LocationsViewModel.swift */; };
+		C437084629E908D2009B1C31 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437084529E908D2009B1C31 /* LocationsListView.swift */; };
+		C437084829E9163F009B1C31 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437084729E9163F009B1C31 /* LocationPreviewView.swift */; };
+		C437084A29EA123F009B1C31 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437084929EA123F009B1C31 /* LocationMapAnnotationView.swift */; };
+		C437084C29EA16E4009B1C31 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437084B29EA16E4009B1C31 /* LocationDetailView.swift */; };
+		C437084F29EAFDEB009B1C31 /* WelcomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437084E29EAFDEB009B1C31 /* WelcomeModel.swift */; };
+		C437085129EB0E0E009B1C31 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437085029EB0E0E009B1C31 /* WelcomeView.swift */; };
+		C482135F29E5A17A00DFAB74 /* HatayEarthquakeMemorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482135E29E5A17A00DFAB74 /* HatayEarthquakeMemorialApp.swift */; };
+		C482136129E5A17A00DFAB74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482136029E5A17A00DFAB74 /* ContentView.swift */; };
+		C482136329E5A17B00DFAB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C482136229E5A17B00DFAB74 /* Assets.xcassets */; };
+		C482136629E5A17B00DFAB74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C482136529E5A17B00DFAB74 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C437083C29E84E10009B1C31 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C437083F29E8567F009B1C31 /* LocationDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataService.swift; sourceTree = "<group>"; };
+		C437084129E8FB49009B1C31 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		C437084329E8FE80009B1C31 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		C437084529E908D2009B1C31 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		C437084729E9163F009B1C31 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		C437084929EA123F009B1C31 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		C437084B29EA16E4009B1C31 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		C437084D29EA3160009B1C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C437084E29EAFDEB009B1C31 /* WelcomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModel.swift; sourceTree = "<group>"; };
+		C437085029EB0E0E009B1C31 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C482135B29E5A17A00DFAB74 /* HatayEarthquakeMemorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatayEarthquakeMemorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C482135E29E5A17A00DFAB74 /* HatayEarthquakeMemorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatayEarthquakeMemorialApp.swift; sourceTree = "<group>"; };
+		C482136029E5A17A00DFAB74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C482136229E5A17B00DFAB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C482136529E5A17B00DFAB74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C482135829E5A17A00DFAB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C437083929E84CBC009B1C31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C437084E29EAFDEB009B1C31 /* WelcomeModel.swift */,
+				C437083C29E84E10009B1C31 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C437083A29E84CCE009B1C31 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C437084329E8FE80009B1C31 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C437083B29E84CE8009B1C31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C437084129E8FB49009B1C31 /* LocationsView.swift */,
+				C437084B29EA16E4009B1C31 /* LocationDetailView.swift */,
+				C437084929EA123F009B1C31 /* LocationMapAnnotationView.swift */,
+				C437084529E908D2009B1C31 /* LocationsListView.swift */,
+				C437084729E9163F009B1C31 /* LocationPreviewView.swift */,
+				C437085029EB0E0E009B1C31 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C437083E29E8559C009B1C31 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				C437083F29E8567F009B1C31 /* LocationDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		C482135229E5A17A00DFAB74 = {
+			isa = PBXGroup;
+			children = (
+				C482135D29E5A17A00DFAB74 /* HatayEarthquakeMemorial */,
+				C482135C29E5A17A00DFAB74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C482135C29E5A17A00DFAB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C482135B29E5A17A00DFAB74 /* HatayEarthquakeMemorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C482135D29E5A17A00DFAB74 /* HatayEarthquakeMemorial */ = {
+			isa = PBXGroup;
+			children = (
+				C437084D29EA3160009B1C31 /* Info.plist */,
+				C482135E29E5A17A00DFAB74 /* HatayEarthquakeMemorialApp.swift */,
+				C482136029E5A17A00DFAB74 /* ContentView.swift */,
+				C437083E29E8559C009B1C31 /* DataServices */,
+				C437083B29E84CE8009B1C31 /* Views */,
+				C437083A29E84CCE009B1C31 /* ViewModels */,
+				C437083929E84CBC009B1C31 /* Models */,
+				C482136229E5A17B00DFAB74 /* Assets.xcassets */,
+				C482136429E5A17B00DFAB74 /* Preview Content */,
+			);
+			path = HatayEarthquakeMemorial;
+			sourceTree = "<group>";
+		};
+		C482136429E5A17B00DFAB74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C482136529E5A17B00DFAB74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C482135A29E5A17A00DFAB74 /* HatayEarthquakeMemorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C482136929E5A17B00DFAB74 /* Build configuration list for PBXNativeTarget "HatayEarthquakeMemorial" */;
+			buildPhases = (
+				C482135729E5A17A00DFAB74 /* Sources */,
+				C482135829E5A17A00DFAB74 /* Frameworks */,
+				C482135929E5A17A00DFAB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HatayEarthquakeMemorial;
+			productName = HatayEarthquakeMemorial;
+			productReference = C482135B29E5A17A00DFAB74 /* HatayEarthquakeMemorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C482135329E5A17A00DFAB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C482135A29E5A17A00DFAB74 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C482135629E5A17A00DFAB74 /* Build configuration list for PBXProject "HatayEarthquakeMemorial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C482135229E5A17A00DFAB74;
+			productRefGroup = C482135C29E5A17A00DFAB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C482135A29E5A17A00DFAB74 /* HatayEarthquakeMemorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C482135929E5A17A00DFAB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C482136629E5A17B00DFAB74 /* Preview Assets.xcassets in Resources */,
+				C482136329E5A17B00DFAB74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C482135729E5A17A00DFAB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C437084F29EAFDEB009B1C31 /* WelcomeModel.swift in Sources */,
+				C437085129EB0E0E009B1C31 /* WelcomeView.swift in Sources */,
+				C437084029E8567F009B1C31 /* LocationDataService.swift in Sources */,
+				C437084A29EA123F009B1C31 /* LocationMapAnnotationView.swift in Sources */,
+				C437084629E908D2009B1C31 /* LocationsListView.swift in Sources */,
+				C437084829E9163F009B1C31 /* LocationPreviewView.swift in Sources */,
+				C437084429E8FE80009B1C31 /* LocationsViewModel.swift in Sources */,
+				C482136129E5A17A00DFAB74 /* ContentView.swift in Sources */,
+				C437084229E8FB49009B1C31 /* LocationsView.swift in Sources */,
+				C437083D29E84E10009B1C31 /* Location.swift in Sources */,
+				C437084C29EA16E4009B1C31 /* LocationDetailView.swift in Sources */,
+				C482135F29E5A17A00DFAB74 /* HatayEarthquakeMemorialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C482136729E5A17B00DFAB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C482136829E5A17B00DFAB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C482136A29E5A17B00DFAB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HatayEarthquakeMemorial/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HatayEarthquakeMemorial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hatay Memorial";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.HatayEarthquakeMemorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C482136B29E5A17B00DFAB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HatayEarthquakeMemorial/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HatayEarthquakeMemorial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hatay Memorial";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.HatayEarthquakeMemorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C482135629E5A17A00DFAB74 /* Build configuration list for PBXProject "HatayEarthquakeMemorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C482136729E5A17B00DFAB74 /* Debug */,
+				C482136829E5A17B00DFAB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C482136929E5A17B00DFAB74 /* Build configuration list for PBXNativeTarget "HatayEarthquakeMemorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C482136A29E5A17B00DFAB74 /* Debug */,
+				C482136B29E5A17B00DFAB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C482135329E5A17A00DFAB74 /* Project object */;
+}

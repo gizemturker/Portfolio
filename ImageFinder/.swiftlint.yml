@@ -1,0 +1,19 @@
+disabled_rules:
+  - colon
+  - comma
+  - trailing_whitespace
+  - vertical_whitespace
+  - line_length
+  - comment_spacing
+
+opt_in_rules:
+  - unused_import
+  - trailing_whitespace
+
+excluded:
+  - Pods
+  - Carthage
+
+analyzer_rules:
+  unused_import: false
+

@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41AD4BD2A05A8E40077CE33 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C41AD4BA2A05A8E40077CE33 /* Raleway-Regular.ttf */; };
+		C41AD4BE2A05A8E40077CE33 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C41AD4BB2A05A8E40077CE33 /* Raleway-SemiBold.ttf */; };
+		C41AD4BF2A05A8E40077CE33 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C41AD4BC2A05A8E40077CE33 /* Raleway-Bold.ttf */; };
+		C42F10592A0B050200067A19 /* MoreProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F10582A0B050200067A19 /* MoreProductsView.swift */; };
+		C42F105B2A1534FF00067A19 /* DiscountCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F105A2A1534FF00067A19 /* DiscountCalculator.swift */; };
+		C4511D4B2A1543920090C65A /* DiscountProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511D4A2A1543920090C65A /* DiscountProtocol.swift */; };
+		C4511D4D2A1544FA0090C65A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511D4C2A1544FA0090C65A /* Double+Extension.swift */; };
+		C4511D4F2A15AE7B0090C65A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511D4E2A15AE7B0090C65A /* SearchView.swift */; };
+		C4511D512A15B8D10090C65A /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511D502A15B8D10090C65A /* StaggeredGrid.swift */; };
+		C4511D532A15CEFE0090C65A /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511D522A15CEFE0090C65A /* ProfilePage.swift */; };
+		C4511D552A16CB0C0090C65A /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511D542A16CB0C0090C65A /* ProductDetailView.swift */; };
+		C4511D572A16CB710090C65A /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511D562A16CB710090C65A /* SharedDataModel.swift */; };
+		C454C38A2A16EE0A00EBBD77 /* LikedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C454C3892A16EE0A00EBBD77 /* LikedPage.swift */; };
+		C487C52929E47D5200E844E2 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C487C52829E47D5200E844E2 /* OnboardingPage.swift */; };
+		C487C52B29E4933600E844E2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C487C52A29E4933600E844E2 /* Launch Screen.storyboard */; };
+		C494EA4829E46BB600C36052 /* TurkerShopCrushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494EA4729E46BB600C36052 /* TurkerShopCrushApp.swift */; };
+		C494EA4A29E46BB600C36052 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494EA4929E46BB600C36052 /* ContentView.swift */; };
+		C494EA4C29E46BB700C36052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C494EA4B29E46BB700C36052 /* Assets.xcassets */; };
+		C494EA4F29E46BB700C36052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C494EA4E29E46BB700C36052 /* Preview Assets.xcassets */; };
+		C4953AAF2A095EE8002BD1A1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4953AAE2A095EE8002BD1A1 /* Home.swift */; };
+		C4953AB12A09BA3B002BD1A1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4953AB02A09BA3B002BD1A1 /* Product.swift */; };
+		C4953AB32A09BF0D002BD1A1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4953AB22A09BF0D002BD1A1 /* HomeViewModel.swift */; };
+		C49EC3D72A18735200FE0416 /* DiscountCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC14E72A185FFB0081D0E8 /* DiscountCalculatorTests.swift */; };
+		C4AC14E22A18180D0081D0E8 /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC14E12A18180D0081D0E8 /* CartPage.swift */; };
+		C4AC14F02A1863080081D0E8 /* TurkerShopCrushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC14EF2A1863080081D0E8 /* TurkerShopCrushTests.swift */; };
+		C4AC14F82A1863890081D0E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC14F72A1863890081D0E8 /* XCTest.framework */; platformFilter = ios; };
+		C4AC15002A1864CA0081D0E8 /* TurkerShopCrushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC14FF2A1864CA0081D0E8 /* TurkerShopCrushUITests.swift */; };
+		C4AC15022A1864CA0081D0E8 /* TurkerShopCrushUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC15012A1864CA0081D0E8 /* TurkerShopCrushUITestsLaunchTests.swift */; };
+		C4AC15092A1864EE0081D0E8 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC15082A1864EE0081D0E8 /* InterfaceBuilderKit.framework */; };
+		C4DA0E3E2A05C0DE00D8CBA9 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA0E3D2A05C0DE00D8CBA9 /* LoginPage.swift */; };
+		C4DA0E402A05C16100D8CBA9 /* LoginPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA0E3F2A05C16100D8CBA9 /* LoginPageModel.swift */; };
+		C4DA0E422A05C5B500D8CBA9 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA0E412A05C5B500D8CBA9 /* CustomCorners.swift */; };
+		C4DA0E862A06048200D8CBA9 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA0E852A06048200D8CBA9 /* MainPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4AC14F12A1863080081D0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C494EA3C29E46BB600C36052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C494EA4329E46BB600C36052;
+			remoteInfo = TurkerShopCrush;
+		};
+		C4AC15032A1864CA0081D0E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C494EA3C29E46BB600C36052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C494EA4329E46BB600C36052;
+			remoteInfo = TurkerShopCrush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C41AD4B92A05A80A0077CE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41AD4BA2A05A8E40077CE33 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		C41AD4BB2A05A8E40077CE33 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		C41AD4BC2A05A8E40077CE33 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		C42F10582A0B050200067A19 /* MoreProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreProductsView.swift; sourceTree = "<group>"; };
+		C42F105A2A1534FF00067A19 /* DiscountCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCalculator.swift; sourceTree = "<group>"; };
+		C4511D4A2A1543920090C65A /* DiscountProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountProtocol.swift; sourceTree = "<group>"; };
+		C4511D4C2A1544FA0090C65A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		C4511D4E2A15AE7B0090C65A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C4511D502A15B8D10090C65A /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
+		C4511D522A15CEFE0090C65A /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		C4511D542A16CB0C0090C65A /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		C4511D562A16CB710090C65A /* SharedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
+		C454C3892A16EE0A00EBBD77 /* LikedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPage.swift; sourceTree = "<group>"; };
+		C487C52829E47D5200E844E2 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		C487C52A29E4933600E844E2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C494EA4429E46BB600C36052 /* TurkerShopCrush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkerShopCrush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C494EA4729E46BB600C36052 /* TurkerShopCrushApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkerShopCrushApp.swift; sourceTree = "<group>"; };
+		C494EA4929E46BB600C36052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C494EA4B29E46BB700C36052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C494EA4E29E46BB700C36052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4953AAE2A095EE8002BD1A1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C4953AB02A09BA3B002BD1A1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C4953AB22A09BF0D002BD1A1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C4AC14E12A18180D0081D0E8 /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
+		C4AC14E72A185FFB0081D0E8 /* DiscountCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountCalculatorTests.swift; sourceTree = "<group>"; };
+		C4AC14ED2A1863080081D0E8 /* TurkerShopCrushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurkerShopCrushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AC14EF2A1863080081D0E8 /* TurkerShopCrushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkerShopCrushTests.swift; sourceTree = "<group>"; };
+		C4AC14F72A1863890081D0E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C4AC14FD2A1864CA0081D0E8 /* TurkerShopCrushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurkerShopCrushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AC14FF2A1864CA0081D0E8 /* TurkerShopCrushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkerShopCrushUITests.swift; sourceTree = "<group>"; };
+		C4AC15012A1864CA0081D0E8 /* TurkerShopCrushUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkerShopCrushUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4AC15082A1864EE0081D0E8 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4DA0E3D2A05C0DE00D8CBA9 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		C4DA0E3F2A05C16100D8CBA9 /* LoginPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageModel.swift; sourceTree = "<group>"; };
+		C4DA0E412A05C5B500D8CBA9 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		C4DA0E852A06048200D8CBA9 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainPage.swift; path = Common/TurkerShopCrush/View/MainPage.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C494EA4129E46BB600C36052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AC14EA2A1863080081D0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC14F82A1863890081D0E8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AC14FA2A1864CA0081D0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC15092A1864EE0081D0E8 /* InterfaceBuilderKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C41AD48A2A05A6820077CE33 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C41AD4BC2A05A8E40077CE33 /* Raleway-Bold.ttf */,
+				C41AD4BA2A05A8E40077CE33 /* Raleway-Regular.ttf */,
+				C41AD4BB2A05A8E40077CE33 /* Raleway-SemiBold.ttf */,
+			);
+			name = Fonts;
+			path = ../Common/Fonts;
+			sourceTree = "<group>";
+		};
+		C41AD4C02A05A9D50077CE33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4511D502A15B8D10090C65A /* StaggeredGrid.swift */,
+				C4953AAD2A095EC7002BD1A1 /* TabViews */,
+				C487C52829E47D5200E844E2 /* OnboardingPage.swift */,
+				C4DA0E3D2A05C0DE00D8CBA9 /* LoginPage.swift */,
+				C4DA0E412A05C5B500D8CBA9 /* CustomCorners.swift */,
+				C4DA0E852A06048200D8CBA9 /* MainPage.swift */,
+				C42F10582A0B050200067A19 /* MoreProductsView.swift */,
+				C4511D4E2A15AE7B0090C65A /* SearchView.swift */,
+				C4511D542A16CB0C0090C65A /* ProductDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C494EA3B29E46BB600C36052 = {
+			isa = PBXGroup;
+			children = (
+				C487C52A29E4933600E844E2 /* Launch Screen.storyboard */,
+				C494EA4629E46BB600C36052 /* TurkerShopCrush */,
+				C4AC14EE2A1863080081D0E8 /* TurkerShopCrushTests */,
+				C4AC14FE2A1864CA0081D0E8 /* TurkerShopCrushUITests */,
+				C494EA4529E46BB600C36052 /* Products */,
+				C4AC14F62A1863890081D0E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C494EA4529E46BB600C36052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C494EA4429E46BB600C36052 /* TurkerShopCrush.app */,
+				C4AC14ED2A1863080081D0E8 /* TurkerShopCrushTests.xctest */,
+				C4AC14FD2A1864CA0081D0E8 /* TurkerShopCrushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C494EA4629E46BB600C36052 /* TurkerShopCrush */ = {
+			isa = PBXGroup;
+			children = (
+				C4511D4A2A1543920090C65A /* DiscountProtocol.swift */,
+				C4511D4C2A1544FA0090C65A /* Double+Extension.swift */,
+				C4DA0E872A0604F200D8CBA9 /* Model */,
+				C4DA0E3C2A05C09B00D8CBA9 /* ViewModel */,
+				C41AD4C02A05A9D50077CE33 /* View */,
+				C41AD48A2A05A6820077CE33 /* Fonts */,
+				C494EA4729E46BB600C36052 /* TurkerShopCrushApp.swift */,
+				C494EA4929E46BB600C36052 /* ContentView.swift */,
+				C494EA4B29E46BB700C36052 /* Assets.xcassets */,
+				C41AD4B92A05A80A0077CE33 /* Info.plist */,
+				C494EA4D29E46BB700C36052 /* Preview Content */,
+			);
+			path = TurkerShopCrush;
+			sourceTree = "<group>";
+		};
+		C494EA4D29E46BB700C36052 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C494EA4E29E46BB700C36052 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4953AAD2A095EC7002BD1A1 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				C4953AAE2A095EE8002BD1A1 /* Home.swift */,
+				C4511D522A15CEFE0090C65A /* ProfilePage.swift */,
+				C454C3892A16EE0A00EBBD77 /* LikedPage.swift */,
+				C4AC14E12A18180D0081D0E8 /* CartPage.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		C4AC14EE2A1863080081D0E8 /* TurkerShopCrushTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC14EF2A1863080081D0E8 /* TurkerShopCrushTests.swift */,
+				C4AC14E72A185FFB0081D0E8 /* DiscountCalculatorTests.swift */,
+			);
+			path = TurkerShopCrushTests;
+			sourceTree = "<group>";
+		};
+		C4AC14F62A1863890081D0E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC15082A1864EE0081D0E8 /* InterfaceBuilderKit.framework */,
+				C4AC14F72A1863890081D0E8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4AC14FE2A1864CA0081D0E8 /* TurkerShopCrushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC14FF2A1864CA0081D0E8 /* TurkerShopCrushUITests.swift */,
+				C4AC15012A1864CA0081D0E8 /* TurkerShopCrushUITestsLaunchTests.swift */,
+			);
+			path = TurkerShopCrushUITests;
+			sourceTree = "<group>";
+		};
+		C4DA0E3C2A05C09B00D8CBA9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA0E3F2A05C16100D8CBA9 /* LoginPageModel.swift */,
+				C4953AB22A09BF0D002BD1A1 /* HomeViewModel.swift */,
+				C4511D562A16CB710090C65A /* SharedDataModel.swift */,
+				C42F105A2A1534FF00067A19 /* DiscountCalculator.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4DA0E872A0604F200D8CBA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4953AB02A09BA3B002BD1A1 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C494EA4329E46BB600C36052 /* TurkerShopCrush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C494EA5229E46BB700C36052 /* Build configuration list for PBXNativeTarget "TurkerShopCrush" */;
+			buildPhases = (
+				C494EA4029E46BB600C36052 /* Sources */,
+				C494EA4129E46BB600C36052 /* Frameworks */,
+				C494EA4229E46BB600C36052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkerShopCrush;
+			productName = TurkerShopCrush;
+			productReference = C494EA4429E46BB600C36052 /* TurkerShopCrush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4AC14EC2A1863080081D0E8 /* TurkerShopCrushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AC14F32A1863080081D0E8 /* Build configuration list for PBXNativeTarget "TurkerShopCrushTests" */;
+			buildPhases = (
+				C4AC14E92A1863080081D0E8 /* Sources */,
+				C4AC14EA2A1863080081D0E8 /* Frameworks */,
+				C4AC14EB2A1863080081D0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AC14F22A1863080081D0E8 /* PBXTargetDependency */,
+			);
+			name = TurkerShopCrushTests;
+			productName = TurkerShopCrushTests;
+			productReference = C4AC14ED2A1863080081D0E8 /* TurkerShopCrushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4AC14FC2A1864CA0081D0E8 /* TurkerShopCrushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AC15052A1864CA0081D0E8 /* Build configuration list for PBXNativeTarget "TurkerShopCrushUITests" */;
+			buildPhases = (
+				C4AC14F92A1864CA0081D0E8 /* Sources */,
+				C4AC14FA2A1864CA0081D0E8 /* Frameworks */,
+				C4AC14FB2A1864CA0081D0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AC15042A1864CA0081D0E8 /* PBXTargetDependency */,
+			);
+			name = TurkerShopCrushUITests;
+			productName = TurkerShopCrushUITests;
+			productReference = C4AC14FD2A1864CA0081D0E8 /* TurkerShopCrushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C494EA3C29E46BB600C36052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C494EA4329E46BB600C36052 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C4AC14EC2A1863080081D0E8 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C494EA4329E46BB600C36052;
+					};
+					C4AC14FC2A1864CA0081D0E8 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C494EA4329E46BB600C36052;
+					};
+				};
+			};
+			buildConfigurationList = C494EA3F29E46BB600C36052 /* Build configuration list for PBXProject "TurkerShopCrush" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C494EA3B29E46BB600C36052;
+			productRefGroup = C494EA4529E46BB600C36052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C494EA4329E46BB600C36052 /* TurkerShopCrush */,
+				C4AC14EC2A1863080081D0E8 /* TurkerShopCrushTests */,
+				C4AC14FC2A1864CA0081D0E8 /* TurkerShopCrushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C494EA4229E46BB600C36052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C487C52B29E4933600E844E2 /* Launch Screen.storyboard in Resources */,
+				C41AD4BF2A05A8E40077CE33 /* Raleway-Bold.ttf in Resources */,
+				C494EA4F29E46BB700C36052 /* Preview Assets.xcassets in Resources */,
+				C494EA4C29E46BB700C36052 /* Assets.xcassets in Resources */,
+				C41AD4BD2A05A8E40077CE33 /* Raleway-Regular.ttf in Resources */,
+				C41AD4BE2A05A8E40077CE33 /* Raleway-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AC14EB2A1863080081D0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AC14FB2A1864CA0081D0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C494EA4029E46BB600C36052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DA0E3E2A05C0DE00D8CBA9 /* LoginPage.swift in Sources */,
+				C4953AB12A09BA3B002BD1A1 /* Product.swift in Sources */,
+				C4511D4D2A1544FA0090C65A /* Double+Extension.swift in Sources */,
+				C4953AB32A09BF0D002BD1A1 /* HomeViewModel.swift in Sources */,
+				C454C38A2A16EE0A00EBBD77 /* LikedPage.swift in Sources */,
+				C42F10592A0B050200067A19 /* MoreProductsView.swift in Sources */,
+				C494EA4A29E46BB600C36052 /* ContentView.swift in Sources */,
+				C4953AAF2A095EE8002BD1A1 /* Home.swift in Sources */,
+				C4511D4B2A1543920090C65A /* DiscountProtocol.swift in Sources */,
+				C4511D572A16CB710090C65A /* SharedDataModel.swift in Sources */,
+				C42F105B2A1534FF00067A19 /* DiscountCalculator.swift in Sources */,
+				C4DA0E422A05C5B500D8CBA9 /* CustomCorners.swift in Sources */,
+				C4511D532A15CEFE0090C65A /* ProfilePage.swift in Sources */,
+				C4511D512A15B8D10090C65A /* StaggeredGrid.swift in Sources */,
+				C4511D4F2A15AE7B0090C65A /* SearchView.swift in Sources */,
+				C494EA4829E46BB600C36052 /* TurkerShopCrushApp.swift in Sources */,
+				C4DA0E402A05C16100D8CBA9 /* LoginPageModel.swift in Sources */,
+				C487C52929E47D5200E844E2 /* OnboardingPage.swift in Sources */,
+				C4DA0E862A06048200D8CBA9 /* MainPage.swift in Sources */,
+				C4AC14E22A18180D0081D0E8 /* CartPage.swift in Sources */,
+				C4511D552A16CB0C0090C65A /* ProductDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AC14E92A1863080081D0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49EC3D72A18735200FE0416 /* DiscountCalculatorTests.swift in Sources */,
+				C4AC14F02A1863080081D0E8 /* TurkerShopCrushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AC14F92A1864CA0081D0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AC15002A1864CA0081D0E8 /* TurkerShopCrushUITests.swift in Sources */,
+				C4AC15022A1864CA0081D0E8 /* TurkerShopCrushUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4AC14F22A1863080081D0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C494EA4329E46BB600C36052 /* TurkerShopCrush */;
+			targetProxy = C4AC14F12A1863080081D0E8 /* PBXContainerItemProxy */;
+		};
+		C4AC15042A1864CA0081D0E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C494EA4329E46BB600C36052 /* TurkerShopCrush */;
+			targetProxy = C4AC15032A1864CA0081D0E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C494EA5029E46BB700C36052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = $;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C494EA5129E46BB700C36052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C494EA5329E46BB700C36052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TurkerShopCrush/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurkerShopCrush/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.TurkerShopCrush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C494EA5429E46BB700C36052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TurkerShopCrush/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurkerShopCrush/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.TurkerShopCrush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4AC14F42A1863080081D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.TurkerShopCrushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurkerShopCrush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurkerShopCrush";
+			};
+			name = Debug;
+		};
+		C4AC14F52A1863080081D0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.TurkerShopCrushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurkerShopCrush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TurkerShopCrush";
+			};
+			name = Release;
+		};
+		C4AC15062A1864CA0081D0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.TurkerShopCrushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurkerShopCrush;
+			};
+			name = Debug;
+		};
+		C4AC15072A1864CA0081D0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.TurkerShopCrushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurkerShopCrush;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C494EA3F29E46BB600C36052 /* Build configuration list for PBXProject "TurkerShopCrush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C494EA5029E46BB700C36052 /* Debug */,
+				C494EA5129E46BB700C36052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C494EA5229E46BB700C36052 /* Build configuration list for PBXNativeTarget "TurkerShopCrush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C494EA5329E46BB700C36052 /* Debug */,
+				C494EA5429E46BB700C36052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AC14F32A1863080081D0E8 /* Build configuration list for PBXNativeTarget "TurkerShopCrushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AC14F42A1863080081D0E8 /* Debug */,
+				C4AC14F52A1863080081D0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AC15052A1864CA0081D0E8 /* Build configuration list for PBXNativeTarget "TurkerShopCrushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AC15062A1864CA0081D0E8 /* Debug */,
+				C4AC15072A1864CA0081D0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C494EA3C29E46BB600C36052 /* Project object */;
+}

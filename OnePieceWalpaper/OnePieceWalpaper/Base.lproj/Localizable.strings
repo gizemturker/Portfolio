@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  OnePieceWalpaper
+
+  Created by Gizem Turker on 31.08.2023.
+  
+*/
+
+
+
+/* English */
+"saveButton" = "Save";
+"photoSaved" = "Photo saved successfully.";
+"OK" = "OK";

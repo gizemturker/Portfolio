@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40A504E2AC76D63009F36E4 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A504D2AC76D63009F36E4 /* HomePageViewModel.swift */; };
+		C40A50502AC76EC4009F36E4 /* UserRegistirationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A504F2AC76EC4009F36E4 /* UserRegistirationViewModel.swift */; };
+		C40A50522AC76F1C009F36E4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A50512AC76F1C009F36E4 /* LoginViewModel.swift */; };
+		C40A50542AC76F73009F36E4 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A50532AC76F73009F36E4 /* UserProfileViewModel.swift */; };
+		C40A50562AC76FEF009F36E4 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A50552AC76FEF009F36E4 /* WelcomeViewModel.swift */; };
+		C40A50582AC77089009F36E4 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A50572AC77089009F36E4 /* QuizViewModel.swift */; };
+		C40A505A2AC770E5009F36E4 /* LevelSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A50592AC770E5009F36E4 /* LevelSelectionViewModel.swift */; };
+		C44E4BBE2AB3B93900C05E33 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E4BBD2AB3B93900C05E33 /* OnboardingView.swift */; };
+		C49D16C22AC4C5E40036BE3C /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D16C12AC4C5E40036BE3C /* Categories.swift */; };
+		C49D16C42AC4C9730036BE3C /* EnglishLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D16C32AC4C9730036BE3C /* EnglishLevels.swift */; };
+		C4A1C8612ACCBDA300009DDE /* LevelSubjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C8602ACCBDA300009DDE /* LevelSubjectsViewModel.swift */; };
+		C4A1C8652ACCBE1200009DDE /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C8642ACCBE1200009DDE /* OnboardingViewModel.swift */; };
+		C4A1C8672ACCBE9D00009DDE /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C8662ACCBE9D00009DDE /* TestViewModel.swift */; };
+		C4A1C8692ACCBF0700009DDE /* VocabularyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C8682ACCBF0700009DDE /* VocabularyListViewModel.swift */; };
+		C4A1C86B2ACCBF6100009DDE /* SynonymGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C86A2ACCBF6100009DDE /* SynonymGameViewModel.swift */; };
+		C4A1C86E2ACE055100009DDE /* CustomButtonVıew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C86D2ACE055100009DDE /* CustomButtonVıew.swift */; };
+		C4A1C8702ACE059B00009DDE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C86F2ACE059B00009DDE /* TextView.swift */; };
+		C4A1C8742ACE065500009DDE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1C8732ACE065500009DDE /* Enums.swift */; };
+		C4AFE73C2AF966EA004EEF84 /* QuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AFE73B2AF966EA004EEF84 /* QuestView.swift */; };
+		C4DFF4A02A94DC0B0091509F /* VocabularyQuizAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF49F2A94DC0B0091509F /* VocabularyQuizAppApp.swift */; };
+		C4DFF4A22A94DC0B0091509F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4A12A94DC0B0091509F /* ContentView.swift */; };
+		C4DFF4A42A94DC0C0091509F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DFF4A32A94DC0C0091509F /* Assets.xcassets */; };
+		C4DFF4A72A94DC0C0091509F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DFF4A62A94DC0C0091509F /* Preview Assets.xcassets */; };
+		C4DFF4B12A94DC0C0091509F /* VocabularyQuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4B02A94DC0C0091509F /* VocabularyQuizAppTests.swift */; };
+		C4DFF4BB2A94DC0C0091509F /* VocabularyQuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4BA2A94DC0C0091509F /* VocabularyQuizAppUITests.swift */; };
+		C4DFF4BD2A94DC0C0091509F /* VocabularyQuizAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4BC2A94DC0C0091509F /* VocabularyQuizAppUITestsLaunchTests.swift */; };
+		C4DFF4CA2A94DE7F0091509F /* UserRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4C92A94DE7F0091509F /* UserRegistrationView.swift */; };
+		C4DFF4CC2A94DEB70091509F /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4CB2A94DEB70091509F /* UserProfileView.swift */; };
+		C4DFF4CE2A94DF580091509F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4CD2A94DF580091509F /* LoginView.swift */; };
+		C4DFF4D22A94E0E30091509F /* LevelSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4D12A94E0E30091509F /* LevelSelectionView.swift */; };
+		C4DFF4D42A94EF720091509F /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4D32A94EF720091509F /* QuizView.swift */; };
+		C4DFF4D62A94F1C40091509F /* VocabularyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4D52A94F1C40091509F /* VocabularyListView.swift */; };
+		C4DFF4D82A9618D40091509F /* SynonymGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4D72A9618D40091509F /* SynonymGameView.swift */; };
+		C4DFF4DC2A9638280091509F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4DB2A9638280091509F /* HomePageView.swift */; };
+		C4DFF4DE2A963C080091509F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4DD2A963C080091509F /* WelcomeView.swift */; };
+		C4DFF4E02A963D960091509F /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4DF2A963D960091509F /* TestView.swift */; };
+		C4DFF4E22A9641200091509F /* LevelSubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF4E12A9641200091509F /* LevelSubjectsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4DFF4AD2A94DC0C0091509F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DFF4942A94DC0B0091509F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DFF49B2A94DC0B0091509F;
+			remoteInfo = VocabularyQuizApp;
+		};
+		C4DFF4B72A94DC0C0091509F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4DFF4942A94DC0B0091509F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DFF49B2A94DC0B0091509F;
+			remoteInfo = VocabularyQuizApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		292B322F4BBABCBE9DA117FB /* Pods-VocabularyQuizAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyQuizAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VocabularyQuizAppTests/Pods-VocabularyQuizAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FD3C72691C3FC10C0160422 /* Pods-VocabularyQuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyQuizApp.release.xcconfig"; path = "Target Support Files/Pods-VocabularyQuizApp/Pods-VocabularyQuizApp.release.xcconfig"; sourceTree = "<group>"; };
+		4AC347EF2D76C86AF478D130 /* Pods-VocabularyQuizAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyQuizAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VocabularyQuizAppUITests/Pods-VocabularyQuizAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92056E239ED5FBBF0DF6AFB5 /* Pods-VocabularyQuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyQuizApp.debug.xcconfig"; path = "Target Support Files/Pods-VocabularyQuizApp/Pods-VocabularyQuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B595157BEEC1CD0852D69103 /* Pods-VocabularyQuizAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyQuizAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VocabularyQuizAppUITests/Pods-VocabularyQuizAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C40A504D2AC76D63009F36E4 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		C40A504F2AC76EC4009F36E4 /* UserRegistirationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistirationViewModel.swift; sourceTree = "<group>"; };
+		C40A50512AC76F1C009F36E4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C40A50532AC76F73009F36E4 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
+		C40A50552AC76FEF009F36E4 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		C40A50572AC77089009F36E4 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		C40A50592AC770E5009F36E4 /* LevelSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionViewModel.swift; sourceTree = "<group>"; };
+		C44E4BBD2AB3B93900C05E33 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C49D16C12AC4C5E40036BE3C /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		C49D16C32AC4C9730036BE3C /* EnglishLevels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishLevels.swift; sourceTree = "<group>"; };
+		C4A1C8602ACCBDA300009DDE /* LevelSubjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSubjectsViewModel.swift; sourceTree = "<group>"; };
+		C4A1C8642ACCBE1200009DDE /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		C4A1C8662ACCBE9D00009DDE /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		C4A1C8682ACCBF0700009DDE /* VocabularyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyListViewModel.swift; sourceTree = "<group>"; };
+		C4A1C86A2ACCBF6100009DDE /* SynonymGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymGameViewModel.swift; sourceTree = "<group>"; };
+		C4A1C86D2ACE055100009DDE /* CustomButtonVıew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomButtonVıew.swift"; sourceTree = "<group>"; };
+		C4A1C86F2ACE059B00009DDE /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		C4A1C8732ACE065500009DDE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C4AFE73B2AF966EA004EEF84 /* QuestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestView.swift; sourceTree = "<group>"; };
+		C4DFF49C2A94DC0B0091509F /* VocabularyQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabularyQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DFF49F2A94DC0B0091509F /* VocabularyQuizAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyQuizAppApp.swift; sourceTree = "<group>"; };
+		C4DFF4A12A94DC0B0091509F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4DFF4A32A94DC0C0091509F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4DFF4A62A94DC0C0091509F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4DFF4AC2A94DC0C0091509F /* VocabularyQuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabularyQuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DFF4B02A94DC0C0091509F /* VocabularyQuizAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyQuizAppTests.swift; sourceTree = "<group>"; };
+		C4DFF4B62A94DC0C0091509F /* VocabularyQuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VocabularyQuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DFF4BA2A94DC0C0091509F /* VocabularyQuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyQuizAppUITests.swift; sourceTree = "<group>"; };
+		C4DFF4BC2A94DC0C0091509F /* VocabularyQuizAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyQuizAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4DFF4C92A94DE7F0091509F /* UserRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationView.swift; sourceTree = "<group>"; };
+		C4DFF4CB2A94DEB70091509F /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		C4DFF4CD2A94DF580091509F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C4DFF4D12A94E0E30091509F /* LevelSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionView.swift; sourceTree = "<group>"; };
+		C4DFF4D32A94EF720091509F /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		C4DFF4D52A94F1C40091509F /* VocabularyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyListView.swift; sourceTree = "<group>"; };
+		C4DFF4D72A9618D40091509F /* SynonymGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynonymGameView.swift; sourceTree = "<group>"; };
+		C4DFF4DB2A9638280091509F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		C4DFF4DD2A963C080091509F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C4DFF4DF2A963D960091509F /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		C4DFF4E12A9641200091509F /* LevelSubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSubjectsView.swift; sourceTree = "<group>"; };
+		CFEE9078C3152E75CA76F6F9 /* Pods-VocabularyQuizAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabularyQuizAppTests.release.xcconfig"; path = "Target Support Files/Pods-VocabularyQuizAppTests/Pods-VocabularyQuizAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4DFF4992A94DC0B0091509F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFF4A92A94DC0C0091509F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFF4B32A94DC0C0091509F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8280155DCBB5890807CDE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92056E239ED5FBBF0DF6AFB5 /* Pods-VocabularyQuizApp.debug.xcconfig */,
+				2FD3C72691C3FC10C0160422 /* Pods-VocabularyQuizApp.release.xcconfig */,
+				292B322F4BBABCBE9DA117FB /* Pods-VocabularyQuizAppTests.debug.xcconfig */,
+				CFEE9078C3152E75CA76F6F9 /* Pods-VocabularyQuizAppTests.release.xcconfig */,
+				4AC347EF2D76C86AF478D130 /* Pods-VocabularyQuizAppUITests.debug.xcconfig */,
+				B595157BEEC1CD0852D69103 /* Pods-VocabularyQuizAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C40A504C2AC76D27009F36E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C40A504D2AC76D63009F36E4 /* HomePageViewModel.swift */,
+				C40A504F2AC76EC4009F36E4 /* UserRegistirationViewModel.swift */,
+				C40A50512AC76F1C009F36E4 /* LoginViewModel.swift */,
+				C40A50532AC76F73009F36E4 /* UserProfileViewModel.swift */,
+				C40A50552AC76FEF009F36E4 /* WelcomeViewModel.swift */,
+				C40A50572AC77089009F36E4 /* QuizViewModel.swift */,
+				C40A50592AC770E5009F36E4 /* LevelSelectionViewModel.swift */,
+				C4A1C8602ACCBDA300009DDE /* LevelSubjectsViewModel.swift */,
+				C4A1C8642ACCBE1200009DDE /* OnboardingViewModel.swift */,
+				C4A1C8662ACCBE9D00009DDE /* TestViewModel.swift */,
+				C4A1C8682ACCBF0700009DDE /* VocabularyListViewModel.swift */,
+				C4A1C86A2ACCBF6100009DDE /* SynonymGameViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		C49D16BF2AC4C4810036BE3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFF4DB2A9638280091509F /* HomePageView.swift */,
+				C4DFF4C92A94DE7F0091509F /* UserRegistrationView.swift */,
+				C4DFF4CD2A94DF580091509F /* LoginView.swift */,
+				C4DFF4CB2A94DEB70091509F /* UserProfileView.swift */,
+				C4DFF4DD2A963C080091509F /* WelcomeView.swift */,
+				C4DFF4D32A94EF720091509F /* QuizView.swift */,
+				C4DFF4D12A94E0E30091509F /* LevelSelectionView.swift */,
+				C4DFF4E12A9641200091509F /* LevelSubjectsView.swift */,
+				C44E4BBD2AB3B93900C05E33 /* OnboardingView.swift */,
+				C4DFF4DF2A963D960091509F /* TestView.swift */,
+				C4DFF4D52A94F1C40091509F /* VocabularyListView.swift */,
+				C4DFF4D72A9618D40091509F /* SynonymGameView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C49D16C02AC4C4D20036BE3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C49D16C12AC4C5E40036BE3C /* Categories.swift */,
+				C49D16C32AC4C9730036BE3C /* EnglishLevels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4A1C86C2ACE052100009DDE /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				C4A1C86D2ACE055100009DDE /* CustomButtonVıew.swift */,
+				C4A1C86F2ACE059B00009DDE /* TextView.swift */,
+				C4AFE73B2AF966EA004EEF84 /* QuestView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C4DFF4932A94DC0B0091509F = {
+			isa = PBXGroup;
+			children = (
+				C4DFF49E2A94DC0B0091509F /* VocabularyQuizApp */,
+				C4DFF4AF2A94DC0C0091509F /* VocabularyQuizAppTests */,
+				C4DFF4B92A94DC0C0091509F /* VocabularyQuizAppUITests */,
+				C4DFF49D2A94DC0B0091509F /* Products */,
+				AE8280155DCBB5890807CDE7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C4DFF49D2A94DC0B0091509F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFF49C2A94DC0B0091509F /* VocabularyQuizApp.app */,
+				C4DFF4AC2A94DC0C0091509F /* VocabularyQuizAppTests.xctest */,
+				C4DFF4B62A94DC0C0091509F /* VocabularyQuizAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4DFF49E2A94DC0B0091509F /* VocabularyQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFF49F2A94DC0B0091509F /* VocabularyQuizAppApp.swift */,
+				C4DFF4A12A94DC0B0091509F /* ContentView.swift */,
+				C4A1C8732ACE065500009DDE /* Enums.swift */,
+				C4A1C86C2ACE052100009DDE /* Custom */,
+				C49D16C02AC4C4D20036BE3C /* Model */,
+				C49D16BF2AC4C4810036BE3C /* Views */,
+				C40A504C2AC76D27009F36E4 /* ViewModel */,
+				C4DFF4A32A94DC0C0091509F /* Assets.xcassets */,
+				C4DFF4A52A94DC0C0091509F /* Preview Content */,
+			);
+			path = VocabularyQuizApp;
+			sourceTree = "<group>";
+		};
+		C4DFF4A52A94DC0C0091509F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFF4A62A94DC0C0091509F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4DFF4AF2A94DC0C0091509F /* VocabularyQuizAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFF4B02A94DC0C0091509F /* VocabularyQuizAppTests.swift */,
+			);
+			path = VocabularyQuizAppTests;
+			sourceTree = "<group>";
+		};
+		C4DFF4B92A94DC0C0091509F /* VocabularyQuizAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFF4BA2A94DC0C0091509F /* VocabularyQuizAppUITests.swift */,
+				C4DFF4BC2A94DC0C0091509F /* VocabularyQuizAppUITestsLaunchTests.swift */,
+			);
+			path = VocabularyQuizAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4DFF49B2A94DC0B0091509F /* VocabularyQuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DFF4C02A94DC0C0091509F /* Build configuration list for PBXNativeTarget "VocabularyQuizApp" */;
+			buildPhases = (
+				590AC7A3330CC1ED804E76B1 /* [CP] Check Pods Manifest.lock */,
+				C4DFF4982A94DC0B0091509F /* Sources */,
+				C4DFF4992A94DC0B0091509F /* Frameworks */,
+				C4DFF49A2A94DC0B0091509F /* Resources */,
+				C4F62D452AE9C5F600CCBAEA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocabularyQuizApp;
+			productName = VocabularyQuizApp;
+			productReference = C4DFF49C2A94DC0B0091509F /* VocabularyQuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4DFF4AB2A94DC0C0091509F /* VocabularyQuizAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DFF4C32A94DC0C0091509F /* Build configuration list for PBXNativeTarget "VocabularyQuizAppTests" */;
+			buildPhases = (
+				07E7611205A40D52D7562B18 /* [CP] Check Pods Manifest.lock */,
+				C4DFF4A82A94DC0C0091509F /* Sources */,
+				C4DFF4A92A94DC0C0091509F /* Frameworks */,
+				C4DFF4AA2A94DC0C0091509F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DFF4AE2A94DC0C0091509F /* PBXTargetDependency */,
+			);
+			name = VocabularyQuizAppTests;
+			productName = VocabularyQuizAppTests;
+			productReference = C4DFF4AC2A94DC0C0091509F /* VocabularyQuizAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4DFF4B52A94DC0C0091509F /* VocabularyQuizAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DFF4C62A94DC0C0091509F /* Build configuration list for PBXNativeTarget "VocabularyQuizAppUITests" */;
+			buildPhases = (
+				D1946910738652E841F5C754 /* [CP] Check Pods Manifest.lock */,
+				C4DFF4B22A94DC0C0091509F /* Sources */,
+				C4DFF4B32A94DC0C0091509F /* Frameworks */,
+				C4DFF4B42A94DC0C0091509F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4DFF4B82A94DC0C0091509F /* PBXTargetDependency */,
+			);
+			name = VocabularyQuizAppUITests;
+			productName = VocabularyQuizAppUITests;
+			productReference = C4DFF4B62A94DC0C0091509F /* VocabularyQuizAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4DFF4942A94DC0B0091509F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C4DFF49B2A94DC0B0091509F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C4DFF4AB2A94DC0C0091509F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C4DFF49B2A94DC0B0091509F;
+					};
+					C4DFF4B52A94DC0C0091509F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C4DFF49B2A94DC0B0091509F;
+					};
+				};
+			};
+			buildConfigurationList = C4DFF4972A94DC0B0091509F /* Build configuration list for PBXProject "VocabularyQuizApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4DFF4932A94DC0B0091509F;
+			productRefGroup = C4DFF49D2A94DC0B0091509F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DFF49B2A94DC0B0091509F /* VocabularyQuizApp */,
+				C4DFF4AB2A94DC0C0091509F /* VocabularyQuizAppTests */,
+				C4DFF4B52A94DC0C0091509F /* VocabularyQuizAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4DFF49A2A94DC0B0091509F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DFF4A72A94DC0C0091509F /* Preview Assets.xcassets in Resources */,
+				C4DFF4A42A94DC0C0091509F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFF4AA2A94DC0C0091509F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFF4B42A94DC0C0091509F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E7611205A40D52D7562B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocabularyQuizAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590AC7A3330CC1ED804E76B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocabularyQuizApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F62D452AE9C5F600CCBAEA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		D1946910738652E841F5C754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocabularyQuizAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4DFF4982A94DC0B0091509F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AFE73C2AF966EA004EEF84 /* QuestView.swift in Sources */,
+				C4A1C8652ACCBE1200009DDE /* OnboardingViewModel.swift in Sources */,
+				C4DFF4D82A9618D40091509F /* SynonymGameView.swift in Sources */,
+				C4A1C8692ACCBF0700009DDE /* VocabularyListViewModel.swift in Sources */,
+				C4A1C8672ACCBE9D00009DDE /* TestViewModel.swift in Sources */,
+				C40A504E2AC76D63009F36E4 /* HomePageViewModel.swift in Sources */,
+				C4DFF4CA2A94DE7F0091509F /* UserRegistrationView.swift in Sources */,
+				C49D16C22AC4C5E40036BE3C /* Categories.swift in Sources */,
+				C49D16C42AC4C9730036BE3C /* EnglishLevels.swift in Sources */,
+				C4DFF4E22A9641200091509F /* LevelSubjectsView.swift in Sources */,
+				C4A1C8702ACE059B00009DDE /* TextView.swift in Sources */,
+				C4A1C8612ACCBDA300009DDE /* LevelSubjectsViewModel.swift in Sources */,
+				C4DFF4A22A94DC0B0091509F /* ContentView.swift in Sources */,
+				C4DFF4D62A94F1C40091509F /* VocabularyListView.swift in Sources */,
+				C4A1C86B2ACCBF6100009DDE /* SynonymGameViewModel.swift in Sources */,
+				C4A1C8742ACE065500009DDE /* Enums.swift in Sources */,
+				C4DFF4A02A94DC0B0091509F /* VocabularyQuizAppApp.swift in Sources */,
+				C4DFF4D22A94E0E30091509F /* LevelSelectionView.swift in Sources */,
+				C40A50562AC76FEF009F36E4 /* WelcomeViewModel.swift in Sources */,
+				C4A1C86E2ACE055100009DDE /* CustomButtonVıew.swift in Sources */,
+				C4DFF4DE2A963C080091509F /* WelcomeView.swift in Sources */,
+				C40A505A2AC770E5009F36E4 /* LevelSelectionViewModel.swift in Sources */,
+				C4DFF4D42A94EF720091509F /* QuizView.swift in Sources */,
+				C4DFF4CE2A94DF580091509F /* LoginView.swift in Sources */,
+				C4DFF4DC2A9638280091509F /* HomePageView.swift in Sources */,
+				C40A50502AC76EC4009F36E4 /* UserRegistirationViewModel.swift in Sources */,
+				C4DFF4E02A963D960091509F /* TestView.swift in Sources */,
+				C40A50582AC77089009F36E4 /* QuizViewModel.swift in Sources */,
+				C4DFF4CC2A94DEB70091509F /* UserProfileView.swift in Sources */,
+				C40A50542AC76F73009F36E4 /* UserProfileViewModel.swift in Sources */,
+				C40A50522AC76F1C009F36E4 /* LoginViewModel.swift in Sources */,
+				C44E4BBE2AB3B93900C05E33 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFF4A82A94DC0C0091509F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DFF4B12A94DC0C0091509F /* VocabularyQuizAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFF4B22A94DC0C0091509F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DFF4BB2A94DC0C0091509F /* VocabularyQuizAppUITests.swift in Sources */,
+				C4DFF4BD2A94DC0C0091509F /* VocabularyQuizAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4DFF4AE2A94DC0C0091509F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DFF49B2A94DC0B0091509F /* VocabularyQuizApp */;
+			targetProxy = C4DFF4AD2A94DC0C0091509F /* PBXContainerItemProxy */;
+		};
+		C4DFF4B82A94DC0C0091509F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DFF49B2A94DC0B0091509F /* VocabularyQuizApp */;
+			targetProxy = C4DFF4B72A94DC0C0091509F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4DFF4BE2A94DC0C0091509F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4DFF4BF2A94DC0C0091509F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4DFF4C12A94DC0C0091509F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92056E239ED5FBBF0DF6AFB5 /* Pods-VocabularyQuizApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocabularyQuizApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.VocabularyQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4DFF4C22A94DC0C0091509F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD3C72691C3FC10C0160422 /* Pods-VocabularyQuizApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocabularyQuizApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.VocabularyQuizApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4DFF4C42A94DC0C0091509F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292B322F4BBABCBE9DA117FB /* Pods-VocabularyQuizAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.VocabularyQuizAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabularyQuizApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocabularyQuizApp";
+			};
+			name = Debug;
+		};
+		C4DFF4C52A94DC0C0091509F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEE9078C3152E75CA76F6F9 /* Pods-VocabularyQuizAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.VocabularyQuizAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocabularyQuizApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VocabularyQuizApp";
+			};
+			name = Release;
+		};
+		C4DFF4C72A94DC0C0091509F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC347EF2D76C86AF478D130 /* Pods-VocabularyQuizAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.VocabularyQuizAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocabularyQuizApp;
+			};
+			name = Debug;
+		};
+		C4DFF4C82A94DC0C0091509F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B595157BEEC1CD0852D69103 /* Pods-VocabularyQuizAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.VocabularyQuizAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VocabularyQuizApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DFF4972A94DC0B0091509F /* Build configuration list for PBXProject "VocabularyQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DFF4BE2A94DC0C0091509F /* Debug */,
+				C4DFF4BF2A94DC0C0091509F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DFF4C02A94DC0C0091509F /* Build configuration list for PBXNativeTarget "VocabularyQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DFF4C12A94DC0C0091509F /* Debug */,
+				C4DFF4C22A94DC0C0091509F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DFF4C32A94DC0C0091509F /* Build configuration list for PBXNativeTarget "VocabularyQuizAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DFF4C42A94DC0C0091509F /* Debug */,
+				C4DFF4C52A94DC0C0091509F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DFF4C62A94DC0C0091509F /* Build configuration list for PBXNativeTarget "VocabularyQuizAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DFF4C72A94DC0C0091509F /* Debug */,
+				C4DFF4C82A94DC0C0091509F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4DFF4942A94DC0B0091509F /* Project object */;
+}

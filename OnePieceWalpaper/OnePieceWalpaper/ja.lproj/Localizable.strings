@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  OnePieceWalpaper
+
+  Created by Gizem Turker on 31.08.2023.
+  
+*/
+
+/* HomePage Title */
+"HomePageTitle" = "ワンピースの壁紙";
+
+/* Japanese */
+"saveButton" = "保存";
+"photoSaved" = "写真が正常に保存されました。";
+"OK" = "オーケー";

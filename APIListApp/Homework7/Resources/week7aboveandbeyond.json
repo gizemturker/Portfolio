@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mademoiselle",
+        "first": "Paulina",
+        "last": "Bonnet"
+      },
+      "location": {
+        "street": {
+          "number": 2201,
+          "name": "Rue Bataille"
+        },
+        "city": "Thun",
+        "state": "Zürich",
+        "country": "Switzerland",
+        "postcode": 2026,
+        "coordinates": {
+          "latitude": "-63.2827",
+          "longitude": "92.1061"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "paulina.bonnet@example.com",
+      "login": {
+        "uuid": "c1c536df-fe86-4355-b8e2-f3e8d719cbfb",
+        "username": "blackzebra293",
+        "password": "tennesse",
+        "salt": "6Gxmxt0F",
+        "md5": "c5ec028f9f16902c0470f1ea0995f402",
+        "sha1": "d67d46d98758c6623bb7e83a0257fdfd525352a8",
+        "sha256": "f6d3778de7359a0fff513da0c6b91d26860e91dd66a2f405404200eddca365be"
+      },
+      "dob": {
+        "date": "1995-12-26T15:28:55.724Z",
+        "age": 27
+      },
+      "registered": {
+        "date": "2012-07-11T09:08:49.195Z",
+        "age": 11
+      },
+      "phone": "077 779 71 62",
+      "cell": "079 391 44 10",
+      "id": {
+        "name": "AVS",
+        "value": "756.5304.8739.26"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/81.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/81.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/81.jpg"
+      },
+      "nat": "CH"
+    }
+  ],
+  "info": {
+    "seed": "db2c1cb9e4cf2532",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

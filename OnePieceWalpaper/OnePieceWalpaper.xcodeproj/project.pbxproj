@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4F3015D6D84659E0896CA3 /* Pods_OnePieceWalpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0E66CB4F4D51C5158E1F8B /* Pods_OnePieceWalpaper.framework */; };
+		C4D61EE92AA0B5C200A8CF42 /* OnePieceWalpaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61EE82AA0B5C200A8CF42 /* OnePieceWalpaperApp.swift */; };
+		C4D61EEB2AA0B5C200A8CF42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61EEA2AA0B5C200A8CF42 /* ContentView.swift */; };
+		C4D61EED2AA0B5C300A8CF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D61EEC2AA0B5C300A8CF42 /* Assets.xcassets */; };
+		C4D61EF02AA0B5C300A8CF42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D61EEF2AA0B5C300A8CF42 /* Preview Assets.xcassets */; };
+		C4D61EF72AA0B5E400A8CF42 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61EF62AA0B5E400A8CF42 /* HomePageView.swift */; };
+		C4D61EFB2AA0B9D600A8CF42 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4D61EF92AA0B9D600A8CF42 /* Localizable.strings */; };
+		C4D61F002AA0BA2900A8CF42 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4D61EFE2AA0BA2900A8CF42 /* Localizable.strings */; };
+		C4D61F032AA0BA4700A8CF42 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4D61F012AA0BA4700A8CF42 /* Localizable.strings */; };
+		C4D61F462AAA09E200A8CF42 /* InterstitialContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61F452AAA09E200A8CF42 /* InterstitialContentView.swift */; };
+		C4D61F482AAA0A0E00A8CF42 /* RewardedContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61F472AAA0A0E00A8CF42 /* RewardedContentView.swift */; };
+		C4D61F4A2AAA0A2800A8CF42 /* AdDialogContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61F492AAA0A2800A8CF42 /* AdDialogContentView.swift */; };
+		C4D61F4C2AAA0A4100A8CF42 /* RewardedInterstitialContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61F4B2AAA0A4100A8CF42 /* RewardedInterstitialContentView.swift */; };
+		C4D61F4E2AAA0A8C00A8CF42 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61F4D2AAA0A8C00A8CF42 /* CountdownTimer.swift */; };
+		C4D61F562AAA3E4000A8CF42 /* HomePageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61F552AAA3E4000A8CF42 /* HomePageItem.swift */; };
+		C4D61F582AAA3EFC00A8CF42 /* BannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D61F572AAA3EFC00A8CF42 /* BannerContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F01C31DC14E7A45CC7B3865 /* Pods-OnePieceWalpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePieceWalpaper.debug.xcconfig"; path = "Target Support Files/Pods-OnePieceWalpaper/Pods-OnePieceWalpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0E66CB4F4D51C5158E1F8B /* Pods_OnePieceWalpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnePieceWalpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D61EE52AA0B5C200A8CF42 /* OnePieceWalpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePieceWalpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D61EE82AA0B5C200A8CF42 /* OnePieceWalpaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePieceWalpaperApp.swift; sourceTree = "<group>"; };
+		C4D61EEA2AA0B5C200A8CF42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4D61EEC2AA0B5C300A8CF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4D61EEF2AA0B5C300A8CF42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4D61EF62AA0B5E400A8CF42 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		C4D61EFA2AA0B9D600A8CF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Localizable.strings; sourceTree = "<group>"; };
+		C4D61EFF2AA0BA2900A8CF42 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
+		C4D61F022AA0BA4700A8CF42 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Localizable.strings; sourceTree = "<group>"; };
+		C4D61F3A2AA9F6A000A8CF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4D61F452AAA09E200A8CF42 /* InterstitialContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialContentView.swift; sourceTree = "<group>"; };
+		C4D61F472AAA0A0E00A8CF42 /* RewardedContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedContentView.swift; sourceTree = "<group>"; };
+		C4D61F492AAA0A2800A8CF42 /* AdDialogContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdDialogContentView.swift; sourceTree = "<group>"; };
+		C4D61F4B2AAA0A4100A8CF42 /* RewardedInterstitialContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedInterstitialContentView.swift; sourceTree = "<group>"; };
+		C4D61F4D2AAA0A8C00A8CF42 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
+		C4D61F552AAA3E4000A8CF42 /* HomePageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageItem.swift; sourceTree = "<group>"; };
+		C4D61F572AAA3EFC00A8CF42 /* BannerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerContentView.swift; sourceTree = "<group>"; };
+		F11F1572A84ED0DB10F6E404 /* Pods-OnePieceWalpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnePieceWalpaper.release.xcconfig"; path = "Target Support Files/Pods-OnePieceWalpaper/Pods-OnePieceWalpaper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4D61EE22AA0B5C200A8CF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4F3015D6D84659E0896CA3 /* Pods_OnePieceWalpaper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1CDF24F5EC82333A267BC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0E66CB4F4D51C5158E1F8B /* Pods_OnePieceWalpaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4D61EDC2AA0B5C200A8CF42 = {
+			isa = PBXGroup;
+			children = (
+				C4D61EE72AA0B5C200A8CF42 /* OnePieceWalpaper */,
+				C4D61EE62AA0B5C200A8CF42 /* Products */,
+				FBD8177EFD838D97547157AE /* Pods */,
+				BE1CDF24F5EC82333A267BC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4D61EE62AA0B5C200A8CF42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61EE52AA0B5C200A8CF42 /* OnePieceWalpaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4D61EE72AA0B5C200A8CF42 /* OnePieceWalpaper */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61F3A2AA9F6A000A8CF42 /* Info.plist */,
+				C4D61EE82AA0B5C200A8CF42 /* OnePieceWalpaperApp.swift */,
+				C4D61EEA2AA0B5C200A8CF42 /* ContentView.swift */,
+				C4D61EF62AA0B5E400A8CF42 /* HomePageView.swift */,
+				C4D61F552AAA3E4000A8CF42 /* HomePageItem.swift */,
+				C4D61EF82AA0B97900A8CF42 /* Base.lproj */,
+				C4D61EFC2AA0B9EB00A8CF42 /* ja.lproj */,
+				C4D61EFD2AA0B9EF00A8CF42 /* ko.lproj */,
+				C4D61EEC2AA0B5C300A8CF42 /* Assets.xcassets */,
+				C4D61F4D2AAA0A8C00A8CF42 /* CountdownTimer.swift */,
+				C4D61F3B2AAA08C000A8CF42 /* Banner */,
+				C4D61F3F2AAA092E00A8CF42 /* Interstitial */,
+				C4D61F402AAA096600A8CF42 /* Native */,
+				C4D61F412AAA098000A8CF42 /* Rewarded */,
+				C4D61F422AAA09A600A8CF42 /* Rewarded-Interstitial */,
+				C4D61EEE2AA0B5C300A8CF42 /* Preview Content */,
+			);
+			path = OnePieceWalpaper;
+			sourceTree = "<group>";
+		};
+		C4D61EEE2AA0B5C300A8CF42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61EEF2AA0B5C300A8CF42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4D61EF82AA0B97900A8CF42 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61EF92AA0B9D600A8CF42 /* Localizable.strings */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		C4D61EFC2AA0B9EB00A8CF42 /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61EFE2AA0BA2900A8CF42 /* Localizable.strings */,
+			);
+			path = ja.lproj;
+			sourceTree = "<group>";
+		};
+		C4D61EFD2AA0B9EF00A8CF42 /* ko.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61F012AA0BA4700A8CF42 /* Localizable.strings */,
+			);
+			path = ko.lproj;
+			sourceTree = "<group>";
+		};
+		C4D61F3B2AAA08C000A8CF42 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61F572AAA3EFC00A8CF42 /* BannerContentView.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		C4D61F3F2AAA092E00A8CF42 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61F452AAA09E200A8CF42 /* InterstitialContentView.swift */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		C4D61F402AAA096600A8CF42 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		C4D61F412AAA098000A8CF42 /* Rewarded */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61F472AAA0A0E00A8CF42 /* RewardedContentView.swift */,
+			);
+			name = Rewarded;
+			path = Native;
+			sourceTree = "<group>";
+		};
+		C4D61F422AAA09A600A8CF42 /* Rewarded-Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				C4D61F492AAA0A2800A8CF42 /* AdDialogContentView.swift */,
+				C4D61F4B2AAA0A4100A8CF42 /* RewardedInterstitialContentView.swift */,
+			);
+			path = "Rewarded-Interstitial";
+			sourceTree = "<group>";
+		};
+		FBD8177EFD838D97547157AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F01C31DC14E7A45CC7B3865 /* Pods-OnePieceWalpaper.debug.xcconfig */,
+				F11F1572A84ED0DB10F6E404 /* Pods-OnePieceWalpaper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4D61EE42AA0B5C200A8CF42 /* OnePieceWalpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D61EF32AA0B5C300A8CF42 /* Build configuration list for PBXNativeTarget "OnePieceWalpaper" */;
+			buildPhases = (
+				5DF80649EC4F5E62E3930CDA /* [CP] Check Pods Manifest.lock */,
+				C4D61EE12AA0B5C200A8CF42 /* Sources */,
+				C4D61EE22AA0B5C200A8CF42 /* Frameworks */,
+				C4D61EE32AA0B5C200A8CF42 /* Resources */,
+				7D4C910005DDE4FA0E9E0A47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnePieceWalpaper;
+			productName = OnePieceWalpaper;
+			productReference = C4D61EE52AA0B5C200A8CF42 /* OnePieceWalpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4D61EDD2AA0B5C200A8CF42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C4D61EE42AA0B5C200A8CF42 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C4D61EE02AA0B5C200A8CF42 /* Build configuration list for PBXProject "OnePieceWalpaper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				ko,
+			);
+			mainGroup = C4D61EDC2AA0B5C200A8CF42;
+			productRefGroup = C4D61EE62AA0B5C200A8CF42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D61EE42AA0B5C200A8CF42 /* OnePieceWalpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4D61EE32AA0B5C200A8CF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D61F032AA0BA4700A8CF42 /* Localizable.strings in Resources */,
+				C4D61EF02AA0B5C300A8CF42 /* Preview Assets.xcassets in Resources */,
+				C4D61F002AA0BA2900A8CF42 /* Localizable.strings in Resources */,
+				C4D61EFB2AA0B9D600A8CF42 /* Localizable.strings in Resources */,
+				C4D61EED2AA0B5C300A8CF42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DF80649EC4F5E62E3930CDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnePieceWalpaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4C910005DDE4FA0E9E0A47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnePieceWalpaper/Pods-OnePieceWalpaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnePieceWalpaper/Pods-OnePieceWalpaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnePieceWalpaper/Pods-OnePieceWalpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4D61EE12AA0B5C200A8CF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D61F4C2AAA0A4100A8CF42 /* RewardedInterstitialContentView.swift in Sources */,
+				C4D61F482AAA0A0E00A8CF42 /* RewardedContentView.swift in Sources */,
+				C4D61F562AAA3E4000A8CF42 /* HomePageItem.swift in Sources */,
+				C4D61F462AAA09E200A8CF42 /* InterstitialContentView.swift in Sources */,
+				C4D61EEB2AA0B5C200A8CF42 /* ContentView.swift in Sources */,
+				C4D61EF72AA0B5E400A8CF42 /* HomePageView.swift in Sources */,
+				C4D61F582AAA3EFC00A8CF42 /* BannerContentView.swift in Sources */,
+				C4D61EE92AA0B5C200A8CF42 /* OnePieceWalpaperApp.swift in Sources */,
+				C4D61F4E2AAA0A8C00A8CF42 /* CountdownTimer.swift in Sources */,
+				C4D61F4A2AAA0A2800A8CF42 /* AdDialogContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4D61EF92AA0B9D600A8CF42 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D61EFA2AA0B9D600A8CF42 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C4D61EFE2AA0BA2900A8CF42 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D61EFF2AA0BA2900A8CF42 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C4D61F012AA0BA4700A8CF42 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D61F022AA0BA4700A8CF42 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4D61EF12AA0B5C300A8CF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4D61EF22AA0B5C300A8CF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4D61EF42AA0B5C300A8CF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01C31DC14E7A45CC7B3865 /* Pods-OnePieceWalpaper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnePieceWalpaper/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnePieceWalpaper/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app would like to save wallpapers to your Photos library for you to use as wallpapers.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.OnePieceWalpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4D61EF52AA0B5C300A8CF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11F1572A84ED0DB10F6E404 /* Pods-OnePieceWalpaper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnePieceWalpaper/Preview Content\"";
+				DEVELOPMENT_TEAM = CRW4G98LL8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnePieceWalpaper/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app would like to save wallpapers to your Photos library for you to use as wallpapers.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gizemturker.OnePieceWalpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4D61EE02AA0B5C200A8CF42 /* Build configuration list for PBXProject "OnePieceWalpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D61EF12AA0B5C300A8CF42 /* Debug */,
+				C4D61EF22AA0B5C300A8CF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D61EF32AA0B5C300A8CF42 /* Build configuration list for PBXNativeTarget "OnePieceWalpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D61EF42AA0B5C300A8CF42 /* Debug */,
+				C4D61EF52AA0B5C300A8CF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4D61EDD2AA0B5C200A8CF42 /* Project object */;
+}

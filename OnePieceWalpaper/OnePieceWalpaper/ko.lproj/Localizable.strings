@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  OnePieceWalpaper
+
+  Created by Gizem Turker on 31.08.2023.
+  
+*/
+
+/* HomePage Title */
+"HomePageTitle" = "원피스 배경화면";
+
+/* Korean */
+"saveButton" = "저장";
+"photoSaved" = "사진이 성공적으로 저장되었습니다.";
+"OK" = "오키";
