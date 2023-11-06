@@ -14,6 +14,22 @@ ShopCrush is a go shopping app and created SwiftUI. Go Shopping - a shopping app
 - On the checkout page, there will be an option to apply a valid discount code.
 - Users can write a review of the item they purchased and add a photo of the item.
 
+## App Screenshot
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/dece453c-54fa-48ed-ba2f-6f8f71c7a342" width="200" height="400" alt="x1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/d4d3b5f8-da62-4f9a-b9d9-0cb6b11c1597" width="200" height="400" alt="x2" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/dd118c8f-d12c-4910-945c-9531cedcdcfc" width="200" height="400" alt="x3" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/35f01bca-e436-471b-9544-ae4badb96125" width="200" height="400" alt="x4" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/f737937b-30c3-4c30-8532-ffc421b2c03d" width="200" height="400" alt="x5" class="image" />
+</div>
+
+
+
+
+
+
+
 
 ## Features
 
