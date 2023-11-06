@@ -14,6 +14,20 @@ The improved version of this app includes the following features:
 - Implementation of a flexible rating system for users to determine movie ratings.
 - Movies and ratings presented in a list for easy user access.
 
+## App Screenshot
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/c199ce34-9d1f-4b65-8944-af1ed3b73b25" width="200" height="400" alt="f1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/94c91111-9b08-414b-8640-a9d5e10ec21b" width="200" height="400" alt="f2" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/de08028c-482d-4a4b-a886-440353d84e87" width="200" height="400" alt="f3" class="image" />
+</div>
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/58a38822-d01e-4605-bf3d-032faff89b8d" width="200" height="400" alt="f1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/5acf01ce-2732-40f2-868e-ea2b8b87be93" width="200" height="400" alt="f2" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/e18a807b-2058-4cd3-be56-9d43d9641893" width="200" height="400" alt="f3" class="image" />
+</div>
+
 ## Requirements
 
 - Users must have Xcode and iOS 14 or later installed on their devices to use the app.
