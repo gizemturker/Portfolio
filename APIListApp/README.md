@@ -29,21 +29,11 @@ This app fetches JSON data from the apilist.json file using URLSession and moder
 - [Gizem Turker](https://github.com/gizemturker) - Main Developer
 
 
-<style>
-.image-container {
-  display: flex;
-}
 
-.image {
-  width: 300px; /* İstenilen boyuta göre ayarlayabilirsiniz */
-  height: 200px; /* İstenilen boyuta göre ayarlayabilirsiniz */
-  object-fit: cover;
-  margin-right: 10px; /* İstenilen boşluk için ayarlayabilirsiniz */
-}
 </style>
 
 <div class="image-container">
-  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1.small" class="image" />
   <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1" class="image" />
   <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/b7c8b209-d22c-4ab1-97e5-4f0dd1f0de24" alt="api1" class="image" />
 </div>
