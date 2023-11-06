@@ -12,6 +12,12 @@ iPadMusicApp is developed to offer users a simple and intuitive music player exp
 - Support for both horizontal and vertical orientations on the iPad.
 - Basic music player controls for managing playback and audio settings.
 
+## App Screenshot
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/4f9fff58-53e4-4ade-9465-4067ce3bdca9" width="600" height="1200" alt="Simulator Screenshot - iPad Pro (12 9-inch) (6th generation) - 2023-11-06 at 23 16 02" class="image" />
+</div>
+
 ## Requirements
 
 - Xcode 12 or later is required for building and running the project.
@@ -28,3 +34,4 @@ To run the project, follow these steps:
 ## Developer
 
 - [Gizem Turker](https://github.com/gizemturker) - Main Developer
+
