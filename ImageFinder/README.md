@@ -14,6 +14,13 @@ Image Finder is designed to provide users with a seamless and efficient photo se
 - User-friendly interface with a search box for querying photos.
 - Display of selected images in large or large2x versions.
 
+  ## App Screenshot
+
+<div class="image-container">
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/4c080b75-79b4-4588-91a5-e9b7103000b3" width="200" height="400" alt="api1" class="image" />
+  <img src="https://github.com/gizemturker/swiftui-notes/assets/17044304/03f6672b-e206-4189-a368-83f42f733ed2" width="200" height="400" alt="api2" class="image" />
+</div>
+
 ## Requirements
 
 - Xcode 12 or later is required for building and running the project.
